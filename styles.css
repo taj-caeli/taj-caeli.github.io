@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  background-color: #f4f1e8;
+}
+
+.flexbox1{
+  display: flex;
+  align-items: center;  
+  padding: 10px;
+}
+
+
+
+/*navbar*/
+
+#navbar {
+  overflow: hidden;
+  background-color: #f4f1e8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+
+  color: #9b4819;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.logo {
+  height: 40px; 
+}
+.logo2 {
+  height: 80px; 
+}
+
+/*Content Body*/
+.content {
+  margin-top: 80px; 
+}
+
+.content-container{
+  padding: 16px;
+}
+
+.intro{
+  flex-direction: row;
+}
+.profile-pic {
+  max-width: 40%;
+  min-width: 250px;
+  overflow: hidden; 
+  border-radius: 50%; 
+  margin-right: 30px;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#short-description{
+  padding: 5px;
+  max-width: 60%;
+  min-width: 350px;
+
+}
+.opener-Hi{
+  font-size: 10.5vh;
+
+}
+
+.opener-Txt{
+  font-size: 3.2vh;
+}
+
+.logo-exp{
+  flex-direction: row;
+  justify-content: flex-start;
+  
+}
+
+.logo-round{
+  width:30px;
+  height: 30px;
+  overflow: hidden; 
+  border-radius: 50%; 
+  margin-right: 5px;
+}
+
+
+/*Footer*/
+
+
+footer {
+  background-color: #314028;
+  padding: 20px;
+  text-align: center;
+}
+
+.green-side{
+  background-color: #314028;
+  width: 350px;
+  height:700px;
+  right: 0; 
+}
+
+
+/*Text Related*/
+
+.no-space {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*Fonts used*/
+
+.radley-regular {
+  font-family: "Radley", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.radley-regular-italic {
+  font-family: "Radley", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.carlito-regular {
+  font-family: "Carlito", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.carlito-bold {
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.carlito-regular-italic {
+  font-family: "Carlito", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.carlito-bold-italic {
+  font-family: "Carlito", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
